@@ -1,0 +1,79 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height:100vh;
+    margin: 0;
+    background-color: aliceblue;
+}
+button{
+    width: 80px;
+    height: 70px;
+    border-radius: 50px;
+    border: 0;
+    background-color: rgba(78, 76, 76, 0.699);
+    color: aliceblue;
+    font-size: 30px;
+    cursor: pointer;
+}
+#keys{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap: 10px;
+    padding:20px;
+}
+#container{
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width:400px;
+    border-radius: 20px;
+    border-color: black;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+#display{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    font-size: 5rem;
+    background-color: rgb(58, 58, 58);
+    padding:15px;
+    text-align: left;
+    border: none;
+    color: azure;  
+}
+#zero{
+    background-color: brown;
+}
+#zero:hover{
+    background-color: rgb(133, 25, 25);
+}
+#zero:active{
+    background-color: rgb(181, 67, 67);
+}
+#see{
+    background-color: rgb(186, 186, 49);
+}
+#see:hover{
+    background-color: rgb(221, 221, 88);
+}
+#see:active{
+    background-color: rgb(179, 179, 91);
+}
+button:hover{
+    background-color: rgb(78, 76, 76);
+}
+button:active{
+    background-color: rgb(118, 113, 113);
+}
+#operators{
+        background: hsl(207, 6%, 69%);
+}
+#operators:hover{
+    background-color: rgb(137, 135, 135);
+}
+#operators:active{
+    background-color: rgb(182, 178, 178);
+}
